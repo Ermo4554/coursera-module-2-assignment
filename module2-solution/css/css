@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Serif", cursive, sans-serif;
     font-size: 16px;
   }
   
@@ -15,18 +15,18 @@
   }
   
   h2.chicken {
-    background-color: #ff1a66;
+    background-color: yellow;
     color: black;
   }
   
   h2.beef {
-    background-color: #cc0000;
-    color: white;
+    background-color: purple;
+    color: ivory;
   }
   
   h2.sushi {
-    background-color: #e6e600;
-    color: black;
+    background-color: pink;
+    color: white;
   }
   
   .menu-item {
@@ -143,5 +143,9 @@
       width: 100%;
     }
   }
-  
-/******* Mobile View seems to stack without formatting in CSS /********
+@media (max-width: 767px){
+    .col-lg-4{
+        width: 100%;
+        float: left;
+    }
+}
