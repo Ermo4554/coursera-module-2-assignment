@@ -1,2 +1,2 @@
-# Coursera Web Page Submission
+# Coursera Repository
 Coursera test repository
