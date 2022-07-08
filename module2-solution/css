@@ -7,7 +7,7 @@
   font-size: 16px;
 }
 
-h1 {
+h1 { 
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
